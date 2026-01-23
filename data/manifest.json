@@ -1,0 +1,52 @@
+{
+    "subjects": [
+        {
+            "id": "law",
+            "name": "Основи права",
+            "path": "./data/law.json",
+            "icon": "Scale"
+        },
+        {
+            "id": "math",
+            "name": "Вища математика",
+            "path": "./data/math.json",
+            "icon": "Calculator"
+        },
+        {
+            "id": "english",
+            "name": "Іноземна мова",
+            "path": "./data/english.json",
+            "icon": "Languages"
+        },
+        {
+            "id": "physics",
+            "name": "Фізика",
+            "path": "./data/physics.json",
+            "icon": "Atom"
+        },
+        {
+            "id": "se_basics",
+            "name": "Основи програмної інженерії",
+            "path": "./data/se_basics.json",
+            "icon": "Code"
+        },
+        {
+            "id": "oop",
+            "name": "ООП",
+            "path": "./data/oop.json",
+            "icon": "Binary"
+        },
+        {
+            "id": "algo",
+            "name": "Алгоритми",
+            "path": "./data/algo.json",
+            "icon": "Network"
+        },
+        {
+            "id": "hypertext",
+            "name": "Гіпертекст",
+            "path": "./data/hypertext.json",
+            "icon": "Globe"
+        }
+    ]
+}

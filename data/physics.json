@@ -1,0 +1,28 @@
+{
+    "id": "physics",
+    "title": "Фізика",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Фізика",
+            "subtitle": "Поки невідомо"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс (з першого семестру ще)",
+                    "url": "https://dl.nure.ua/course/view.php?id=29264",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Статус",
+            "content": "Поки невідомо",
+            "variant": "neutral"
+        }
+    ]
+}

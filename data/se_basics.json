@@ -1,0 +1,57 @@
+{
+    "id": "se_basics",
+    "title": "Основи програмної інженерії",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Основи програмної інженерії",
+            "subtitle": "Основна інформація та матеріали"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс",
+                    "url": "https://dl.nure.ua/course/view.php?id=29817",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Бали",
+            "content": "Дві практичні - максмум 26 балів\nЧотири лабораторні - максмум 64 бали\nСамостійна робота - максмум 10 балів\nВсього: 100",
+            "variant": "success"
+        },
+        {
+            "type": "info_card",
+            "title": "ШІ Інструменти",
+            "content": "ШІ можна використовувати офіційно. \n",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Важливі посилання",
+            "links": [
+                {
+                    "label": "Анкета про себе",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=755022",
+                    "description": "Сказали треба",
+                    "icon": "User"
+                },
+                {
+                    "label": "Курс в Moodle",
+                    "url": "https://dl.nure.ua/course/view.php?id=29817",
+                    "icon": "Globe"
+                },
+                {
+                    "label": "Лекція (NotebookLM)",
+                    "url": "https://notebooklm.google.com/notebook/f597c48c-a0f4-41c4-aa1a-e6a85c31b0a3",
+                    "description": "Якщо що то я додав повний відос з установчої лекції в notebooklm, якщо є питання по цій лекції(може згадати щось хочете)",
+                    "icon": "Cpu"
+                }
+            ]
+        }
+    ]
+}

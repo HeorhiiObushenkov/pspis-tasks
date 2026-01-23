@@ -1,0 +1,135 @@
+{
+    "id": "hypertext",
+    "title": "Гіпертекст",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Гіпертекст та гіпермедіа",
+            "subtitle": "Викладача потім додам, може... Нагадаєте корочє"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс",
+                    "url": "https://dl.nure.ua/course/view.php?id=29801",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Система оцінювання",
+            "content": "- Лабораторні (4 шт): 40б\n- Практичні (2 шт): 20б\n- Доповідь: 15б (Обов'язково)\n- Залік: 10б (Обов'язково)\n- Всього: 85б + активність",
+            "variant": "success"
+        },
+        {
+            "type": "info_card",
+            "title": "АІ Політика",
+            "content": "Треба здати лабораторні, практичні та проєкт(прикріпив знизу посилання на здачу, або можете просто через курс). Можна використовувати ШІ. Є гайд з промтингу.",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Завдання та Матеріали",
+            "links": [
+                {
+                    "label": "Завдання до ПЗ",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=764445",
+                    "icon": "File"
+                },
+                {
+                    "label": "Приклад до ПЗ 1",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=764446",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Завдання до ЛБ",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=764447",
+                    "icon": "File"
+                },
+                {
+                    "label": "Про використання АІ",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=764520",
+                    "icon": "Cpu"
+                },
+                {
+                    "label": "Інфо про Залік",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=757151",
+                    "icon": "AlertCircle"
+                },
+                {
+                    "label": "Гайд з промтингу",
+                    "url": "https://chocolate-helicopter-4f8.notion.site/1a42ee53558e80279258f81ceb0211a7?v=1a42ee53558e8027b2ff000c3e008cd9&p=1a42ee53558e80de838fdd4d1b00af20&pm=s",
+                    "icon": "HelpCircle"
+                }
+            ]
+        },
+        {
+            "type": "link_group",
+            "title": "Здача робіт",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Здати ЛБ",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=764457",
+                    "icon": "Upload"
+                },
+                {
+                    "label": "Здати ПЗ",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=764458",
+                    "icon": "Upload"
+                },
+                {
+                    "label": "Здати Проєкт",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=764461",
+                    "icon": "Upload"
+                },
+                {
+                    "label": "Здати Доповідь",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=764459",
+                    "icon": "Upload"
+                }
+            ]
+        },
+        {
+            "type": "task_list",
+            "title": "Чекліст",
+            "tasks": [
+                {
+                    "id": "ht_lb1",
+                    "text": "Лабораторна 1"
+                },
+                {
+                    "id": "ht_lb2",
+                    "text": "Лабораторна 2"
+                },
+                {
+                    "id": "ht_lb3",
+                    "text": "Лабораторна 3"
+                },
+                {
+                    "id": "ht_lb4",
+                    "text": "Лабораторна 4"
+                },
+                {
+                    "id": "ht_pz1",
+                    "text": "Практична 1"
+                },
+                {
+                    "id": "ht_pz2",
+                    "text": "Практична 2"
+                },
+                {
+                    "id": "ht_report",
+                    "text": "Доповідь"
+                },
+                {
+                    "id": "ht_project",
+                    "text": "Проєкт"
+                }
+            ]
+        }
+    ]
+}

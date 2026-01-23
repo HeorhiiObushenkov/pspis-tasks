@@ -1,0 +1,76 @@
+{
+    "id": "math",
+    "title": "Вища математика",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Вища математика",
+            "subtitle": "Наче є вся інфа"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс",
+                    "url": "https://dl.nure.ua/course/view.php?id=29567",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Загальна інформація",
+            "content": "Знову є два ІДЗ, вибираємо за номером в групі",
+            "variant": "info"
+        },
+        {
+            "type": "info_card",
+            "title": "ІДЗ №1",
+            "content": "«Диференціювання та інтегрування функцій багатьох змінних»\n7 задач. Збірник задач: Тевяшев А. Д. та ін. Частина 2 (2010)",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали ІДЗ 1",
+            "links": [
+                {
+                    "label": "Збірник задач (Частина 2)",
+                    "url": "https://dl.nure.ua/pluginfile.php/1155953/mod_resource/content/0/VM2_%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87_Booklet%20-%202%20(1).pdf",
+                    "icon": "BookOpen"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "ІДЗ №2",
+            "content": "«Диференціальні рівняння. Ряди»\n8 задач. Збірник задач: Тевяшев А. Д. та ін. Частина 3 (2010)",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали ІДЗ 2",
+            "links": [
+                {
+                    "label": "Збірник задач (Частина 3)",
+                    "url": "https://dl.nure.ua/pluginfile.php/1155954/mod_resource/content/0/VM3_%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87_Booklet%202%20(1).pdf",
+                    "icon": "BookOpen"
+                }
+            ]
+        },
+        {
+            "type": "task_list",
+            "title": "Завдання",
+            "tasks": [
+                {
+                    "id": "math_idz1",
+                    "text": "Виконати ІДЗ №1"
+                },
+                {
+                    "id": "math_idz2",
+                    "text": "Виконати ІДЗ №2"
+                }
+            ]
+        }
+    ]
+}

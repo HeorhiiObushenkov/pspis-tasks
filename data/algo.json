@@ -1,0 +1,28 @@
+{
+    "id": "algo",
+    "title": "Алгоритми",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Алгоритми та структури даних",
+            "subtitle": "Поки нічого нема"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс",
+                    "url": "https://dl.nure.ua/course/view.php?id=29790",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Статус",
+            "content": "Поки нічого не додано",
+            "variant": "neutral"
+        }
+    ]
+}

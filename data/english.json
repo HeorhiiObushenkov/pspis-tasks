@@ -1,0 +1,28 @@
+{
+    "id": "english",
+    "title": "Іноземна мова",
+    "layout": [
+        {
+            "type": "hero",
+            "title": "Іноземна мова",
+            "subtitle": "Поки невідомо"
+        },
+        {
+            "type": "link_group",
+            "title": "Посилання на курс",
+            "links": [
+                {
+                    "label": "Посилання на курс (Classroom)",
+                    "url": "https://classroom.google.com/c/ODEwMDA3MDY0MzQ5",
+                    "icon": "Globe"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Статус",
+            "content": "Поки невідомо",
+            "variant": "neutral"
+        }
+    ]
+}
