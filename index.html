@@ -51,13 +51,13 @@
                     </label>
                 </div>
                 <div class="flex-1">
-                    <a class="btn btn-ghost text-xl font-bold tracking-tight text-base-content">
+                    <a href="#home" class="btn btn-ghost text-xl font-bold tracking-tight text-base-content">
                         ПЗПІз-25-1</a>
                 </div>
                 <div class="flex-none gap-2">
                     <!-- Mobile Theme Toggle -->
                     <label class="swap swap-rotate btn btn-ghost btn-circle theme-controller-mobile">
-                        <input type="checkbox" class="theme-controller" value="dim" />
+                        <input type="checkbox" class="theme-controller" />
                         <svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
                             <path
@@ -86,7 +86,9 @@
             <aside class="bg-base-100 min-h-full w-80 p-4 border-r border-base-200 flex flex-col gap-4">
                 <!-- Desktop Header -->
                 <div class="hidden lg:flex items-center gap-3 px-2 py-2 mb-2">
-                    <span class="font-bold text-2xl tracking-tight text-base-content">ПЗПІз-25-1</span>
+                    <a href="#home" class="hover:opacity-80 transition-opacity">
+                        <span class="font-bold text-2xl tracking-tight text-base-content">ПЗПІз-25-1</span>
+                    </a>
                 </div>
 
                 <!-- Nav -->
@@ -97,29 +99,125 @@
                     <li class="skeleton h-10 w-full rounded-lg"></li>
                 </ul>
 
-                <!-- Desktop Theme Toggle -->
-                <div class="hidden lg:flex items-center gap-2 px-2 py-2 mt-auto border-t border-base-200 pt-4">
-                    <label class="swap swap-rotate btn btn-sm btn-ghost btn-circle theme-controller-desktop">
-                        <input type="checkbox" class="theme-controller" value="dim" />
-                        <svg class="swap-on fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+                <!-- Mobile Settings Link (Only visible on small screens) -->
+                <div class="lg:hidden mt-auto border-t border-base-200 pt-4">
+                    <button onclick="settings_modal.showModal()" class="btn btn-ghost w-full justify-start gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 opacity-60" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                        <svg class="swap-off fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
-                        </svg>
-                    </label>
-                    <span class="text-sm font-medium opacity-60">Тема</span>
+                        <span>Налаштування</span>
+                    </button>
                 </div>
-            </aside>
+
+                <!-- Desktop Settings & Theme -->
+                <div class="hidden lg:flex flex-col gap-1 mt-auto border-t border-base-200 pt-4">
+                    <button onclick="settings_modal.showModal()"
+                        class="btn btn-ghost btn-sm justify-start gap-4 px-3 w-full group transition-all">
+                        <div class="w-5 flex justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="w-5 h-5 opacity-60 group-hover:opacity-100 transition-opacity" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <span
+                            class="text-sm font-medium opacity-60 group-hover:opacity-100 transition-opacity">Налаштування</span>
+                    </button>
+
+                    <label
+                        class="btn btn-ghost btn-sm justify-start gap-4 px-3 w-full group transition-all cursor-pointer swap swap-rotate">
+                        <input type="checkbox" class="theme-controller hidden" />
+
+                        <!-- Sun Icon -->
+                        <div class="w-5 flex justify-center items-center swap-on">
+                            <svg class="w-5 h-5 opacity-60 group-hover:opacity-100 transition-opacity fill-current"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+                            </svg>
+                        </div>
+
+                        <!-- Moon Icon -->
+                        <div class="w-5 flex justify-center items-center swap-off">
+                            <svg class="w-5 h-5 opacity-60 group-hover:opacity-100 transition-opacity fill-current"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+                            </svg>
+                        </div>
+
+                        <span class="text-sm font-medium opacity-60 group-hover:opacity-100 transition-opacity"
+                            style="margin-left: 2.2rem;">Тема</span>
+                    </label>
+                </div>
         </div>
     </div>
+    </aside>
+    </div>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- Settings Modal -->
+    <dialog id="settings_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box bg-base-100 border border-base-200 shadow-2xl">
+            <h3 class="font-bold text-2xl mb-6">Налаштування</h3>
+
+            <div class="space-y-6">
+                <!-- Theme Selection -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="form-control w-full">
+                        <label class="label">
+                            <span class="label-text font-semibold">Світла тема</span>
+                        </label>
+                        <select id="light-theme-picker" class="select w-full">
+                            <!-- Themes injected here -->
+                        </select>
+                    </div>
+                    <div class="form-control w-full">
+                        <label class="label">
+                            <span class="label-text font-semibold">Темна тема</span>
+                        </label>
+                        <select id="dark-theme-picker" class="select w-full">
+                            <!-- Themes injected here -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Cache Management -->
+                <div class="space-y-3">
+                    <label class="label p-0">
+                        <span class="label-text font-semibold">Керування даними</span>
+                    </label>
+                    <div class="bg-base-200 p-4 rounded-xl flex items-center justify-between gap-4">
+                        <div>
+                            <p class="font-medium text-sm">Очистити кеш</p>
+                            <p class="text-xs opacity-50">Видалить тимчасово завантажені дані дисциплін</p>
+                        </div>
+                        <button id="clear-cache-btn" class="btn btn-warning btn-sm">Очистити</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-action mt-8">
+                <form method="dialog">
+                    <button class="btn btn-primary px-8">Готово</button>
+                </form>
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop bg-base-content/20 backdrop-blur-sm">
+            <button>close</button>
+        </form>
+    </dialog>
+
+    <script type="module" src="js/main.js"></script>
 </body>
-
 
 </html>

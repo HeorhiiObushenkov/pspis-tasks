@@ -57,20 +57,6 @@
                     "icon": "BookOpen"
                 }
             ]
-        },
-        {
-            "type": "task_list",
-            "title": "Завдання",
-            "tasks": [
-                {
-                    "id": "math_idz1",
-                    "text": "Виконати ІДЗ №1"
-                },
-                {
-                    "id": "math_idz2",
-                    "text": "Виконати ІДЗ №2"
-                }
-            ]
         }
     ]
 }

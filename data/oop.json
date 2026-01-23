@@ -65,28 +65,6 @@
                     "icon": "CheckSquare"
                 }
             ]
-        },
-        {
-            "type": "task_list",
-            "title": "Чекліст",
-            "tasks": [
-                {
-                    "id": "oop_coursework_topic",
-                    "text": "Обрати тему курсової"
-                },
-                {
-                    "id": "oop_labs",
-                    "text": "Виконати лабораторні"
-                },
-                {
-                    "id": "oop_control",
-                    "text": "Написати контрольну"
-                },
-                {
-                    "id": "oop_tests",
-                    "text": "Пройти тести"
-                }
-            ]
         }
     ]
 }
