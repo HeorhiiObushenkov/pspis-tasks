@@ -1,42 +1,104 @@
 {
     "id": "oop",
-    "title": "ООП",
+    "title": "Об'єктно-орієнтоване програмування",
     "teacher": "Черепанова Юлія Юріївна",
     "layout": [
         {
             "type": "hero",
             "title": "Об'єктно-орієнтоване програмування",
-            "subtitle": "Викладач: Черепанова Юлія Юріївна"
-        },
-        {
-            "type": "info_card",
-            "title": "Контрольна робота",
-            "content": "Тема: Відрізок, паралелограм, ромб\nНомери елементів класу: 1, 3, 4, 8, 18, 25, 29, 46, 52\nЗавдання: Виконати з таблиці 2.2 згідно з номером у групі. Буде захист під час сесії.",
-            "variant": "info"
-        },
-        {
-            "type": "text_block",
-            "title": "Вимоги до оформлення КР",
-            "content": "- Формат файлу: .doc або .docx\n- Титульний аркуш (обов'язково з датою виконання)\n- Структура: Завдання + Рішення"
-        },
-        {
-            "type": "text_block",
-            "title": "Порядок виконання курсової",
-            "content": "1. Формулювання вимог до програми\n2. Загальне проектування\n3. Детальне проектування\n4. Кодування\n5. Тестування\n6. Оформлення пояснювальної записки\n7. Захист роботи"
+            "subtitle": "Розробка програмного забезпечення на мові C# з використанням принципів ООП"
         },
         {
             "type": "link_group",
-            "title": "Посилання на курс та теми",
+            "title": "Ресурси курсу",
             "links": [
                 {
-                    "label": "Таблиця вибору тем",
-                    "url": "https://docs.google.com/spreadsheets/d/1y8RyWQwJpqgDX3D_cA8qUEYp_ZF7FMq7viaA50y7PQ0/edit?pli=1&gid=912561958#gid=912561958",
-                    "icon": "Grid"
+                    "label": "Курс у Moodle",
+                    "url": "https://dl.nure.ua/course/view.php?id=29701",
+                    "icon": "Globe"
                 },
                 {
-                    "label": "КР та Лабораторні",
-                    "url": "https://dl.nure.ua/course/section.php?id=218167",
+                    "label": "Відеозустріч (Google Meet)",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=755299",
+                    "icon": "Video"
+                },
+                {
+                    "label": "Конспект лекцій",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=755298",
+                    "icon": "Book"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Консультації",
+            "content": "Проводяться кожну 1-шу та 3-тю суботу місяця з 09:00 до 10:00 за посиланням у Google Meet.",
+            "variant": "info"
+        },
+        {
+            "type": "info_card",
+            "title": "Контрольна та лабораторні роботи",
+            "content": "Звіт готується у форматі .doc (назва: НомерГрупи_Прізвище). Має містити: умову, текст програми, скриншоти тестування та інструкцію користувача. Для програм із формами додається вид форм та архів із рішенням. Захист відбувається під час сесії.",
+            "variant": "warning"
+        },
+        {
+            "type": "link_group",
+            "title": "Документація для КР",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Методичні вказівки",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=755301",
+                    "icon": "BookOpen"
+                },
+                {
+                    "label": "Здати звіт КР",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=755302",
+                    "icon": "Upload"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Курсова робота",
+            "content": "Приймання робіт триває з 10 лютого по 5 червня 2026 року. Необхідно завантажити пояснювальну записку, архів із кодом, скан титульного аркуша та завдання з підписом. Структура звіту: аналіз предметної галузі, проектна специфікація, інструкція користувача.",
+            "variant": "success"
+        },
+        {
+            "type": "link_group",
+            "title": "Робота над курсовою",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Вказівки до КР",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=755306",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Обрані теми",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=755307",
                     "icon": "List"
+                },
+                {
+                    "label": "Здати звіт КР",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=755308",
+                    "icon": "Upload"
+                }
+            ]
+        },
+        {
+            "type": "link_group",
+            "title": "Рекомендовані джерела",
+            "links": [
+                {
+                    "label": "Документація .NET",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=755310",
+                    "icon": "ExternalLink"
+                },
+                {
+                    "label": "C# Theory & Practice",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=755309",
+                    "icon": "BookOpen"
                 }
             ]
         }
