@@ -1,56 +1,84 @@
 {
     "id": "se_basics",
     "title": "Основи програмної інженерії",
+    "teacher": "Каук В. І., Гребенюк В. О.",
     "layout": [
         {
             "type": "hero",
             "title": "Основи програмної інженерії",
-            "subtitle": "Основна інформація та матеріали"
+            "subtitle": "Вступ до професії: життєвий цикл ПЗ, Agile та командна розробка"
         },
         {
             "type": "link_group",
-            "title": "Посилання на курс",
+            "title": "Навігація за курсом",
             "links": [
-                {
-                    "label": "Посилання на курс",
-                    "url": "https://dl.nure.ua/course/view.php?id=29817",
-                    "icon": "Globe"
-                }
+                { "label": "Курс у Moodle", "url": "https://dl.nure.ua/course/view.php?id=29532", "icon": "Globe" },
+                { "label": "Силабус", "url": "https://dl.nure.ua/mod/resource/view.php?id=836322", "icon": "FileText" },
+                { "label": "Опис курсу", "url": "https://dl.nure.ua/mod/page/view.php?id=836321", "icon": "Info" },
+                { "label": "Інструкція з проходження", "url": "https://dl.nure.ua/mod/page/view.php?id=836323", "icon": "List" }
             ]
         },
         {
             "type": "info_card",
-            "title": "Бали",
-            "content": "Дві практичні - максмум 26 балів\nЧотири лабораторні - максмум 64 бали\nСамостійна робота - максмум 10 балів\nВсього: 100",
+            "title": "Викладацький склад",
+            "content": "• Віктор Каук: лекції (8), ПЗ для 1-ї групи, консультації (6), залік.\n• В'ячеслав Гребенюк: ПЗ для 2-6 груп, ЛР для всіх груп, консультації (6).",
+            "variant": "info"
+        },
+        {
+            "type": "task_list",
+            "title": "Контрольні заходи",
+            "tasks": [
+                { "id": "se_pz", "text": "Практичні заняття (2 роботи) — по 13 балів кожна" },
+                { "id": "se_lr", "text": "Лабораторні роботи (4 роботи) — по 16 балів кожна" },
+                { "id": "se_sr", "text": "Самостійна робота (1 робота) — 10 балів" }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Система оцінювання та залік",
+            "content": "Залік виставляється як сума накопичених балів за семестр. Мінімальний бал для отримання заліку — 60. Усі завдання відкриваються 04.03.2026. Кінцевий термін здачі — за 7 днів до дати заліку.",
             "variant": "success"
         },
         {
             "type": "info_card",
-            "title": "ШІ Інструменти",
-            "content": "ШІ можна використовувати офіційно. \n",
-            "variant": "info"
+            "title": "Регламент захисту робіт",
+            "content": "Захист виконується у двох режимах:\n1. Синхронний: спілкування з викладачем під час занять.\n2. Асинхронний: завантаження відеозапису з поясненням роботи на YouTube.",
+            "variant": "warning"
+        },
+        {
+            "type": "text_block",
+            "title": "Політика використання ШІ",
+            "content": "Дозволяється використовувати ШІ для написання коду, пояснення концепцій та пошуку помилок. Недопустимим є видавання результатів ШІ за власні без аналізу та зазначення факту використання сервісів автоматизації."
         },
         {
             "type": "link_group",
-            "title": "Важливі посилання",
+            "title": "Програмне забезпечення",
+            "style": "buttons",
             "links": [
-                {
-                    "label": "Анкета про себе",
-                    "url": "https://dl.nure.ua/mod/url/view.php?id=755022",
-                    "description": "Сказали треба",
-                    "icon": "User"
-                },
-                {
-                    "label": "Курс в Moodle",
-                    "url": "https://dl.nure.ua/course/view.php?id=29817",
-                    "icon": "Globe"
-                },
-                {
-                    "label": "Лекція (NotebookLM)",
-                    "url": "https://notebooklm.google.com/notebook/f597c48c-a0f4-41c4-aa1a-e6a85c31b0a3",
-                    "description": "Якщо що то я додав повний відос з установчої лекції в notebooklm, якщо є питання по цій лекції(може згадати щось хочете)",
-                    "icon": "Cpu"
-                }
+                { "label": "VS Code", "url": "https://code.visualstudio.com/download", "icon": "Terminal" },
+                { "label": "Git", "url": "https://git-scm.com/install/windows", "icon": "GitBranch" },
+                { "label": "Docker", "url": "https://www.docker.com/", "icon": "Box" },
+                { "label": "Jira", "url": "https://www.atlassian.com/software/jira", "icon": "Trello" }
+            ]
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали та ШІ-інструменти",
+            "links": [
+                { "label": "GitHub Copilot", "url": "https://github.com/features/copilot", "icon": "Cpu" },
+                { "label": "Hugging Face", "url": "https://huggingface.co/", "icon": "ExternalLink" },
+                { "label": "Google AI Studio", "url": "https://aistudio.google.com/apps", "icon": "Zap" },
+                { "label": "Курси самоосвіти", "url": "https://dl.nure.ua/mod/page/view.php?id=836328", "icon": "BookOpen" }
+            ]
+        },
+        {
+            "type": "link_group",
+            "title": "Архів занять",
+            "style": "buttons",
+            "links": [
+                { "label": "Відеозаписи", "url": "https://dl.nure.ua/mod/page/view.php?id=836335", "icon": "Video" },
+                { "label": "Транскрипти", "url": "https://dl.nure.ua/mod/resource/view.php?id=836336", "icon": "FileText" },
+                { "label": "Додаткові матеріали", "url": "https://dl.nure.ua/mod/page/view.php?id=836346", "icon": "FolderPlus" }
             ]
         }
     ]
