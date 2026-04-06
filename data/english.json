@@ -5,7 +5,7 @@
         {
             "type": "hero",
             "title": "Іноземна мова",
-            "subtitle": "Поки невідомо"
+            "subtitle": "З'явилася інформація про контрольну роботу"
         },
         {
             "type": "link_group",
@@ -20,9 +20,26 @@
         },
         {
             "type": "info_card",
-            "title": "Статус",
-            "content": "Поки невідомо",
-            "variant": "neutral"
+            "title": "Контрольна робота",
+            "content": "Необхідно виконати контрольну роботу. Варіанти завдань доступні для завантаження за кнопками нижче.",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Варіанти КР",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Варіант 1",
+                    "url": "https://drive.google.com/file/d/1EBu5tqoAGITT4OqxaWhcENDtzUiTIcdK/view?usp=classroom_web&authuser=4",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Варіант 2",
+                    "url": "https://drive.google.com/file/d/1p1wEd8WUOR0wl-g-X7LGgBajPoKzIkPm/view?usp=classroom_web&authuser=4",
+                    "icon": "FileText"
+                }
+            ]
         }
     ]
 }
