@@ -6,63 +6,37 @@
         {
             "type": "hero",
             "title": "Об'єктно-орієнтоване програмування",
-            "subtitle": "Викладач: Черепанова Юлія Юріївна (Я б хотів усюди викладача підписати, але мені ліньки лазити по всім ресурсам і шукати)"
+            "subtitle": "Викладач: Черепанова Юлія Юріївна"
+        },
+        {
+            "type": "info_card",
+            "title": "Контрольна робота",
+            "content": "Тема: Відрізок, паралелограм, ромб\nНомери елементів класу: 1, 3, 4, 8, 18, 25, 29, 46, 52\nЗавдання: Виконати з таблиці 2.2 згідно з номером у групі. Буде захист під час сесії.",
+            "variant": "info"
+        },
+        {
+            "type": "text_block",
+            "title": "Вимоги до оформлення КР",
+            "content": "- Формат файлу: .doc або .docx\n- Титульний аркуш (обов'язково з датою виконання)\n- Структура: Завдання + Рішення"
+        },
+        {
+            "type": "text_block",
+            "title": "Порядок виконання курсової",
+            "content": "1. Формулювання вимог до програми\n2. Загальне проектування\n3. Детальне проектування\n4. Кодування\n5. Тестування\n6. Оформлення пояснювальної записки\n7. Захист роботи"
         },
         {
             "type": "link_group",
-            "title": "Посилання на курс (я хз де правильний тож дам просто на всі три)",
+            "title": "Посилання на курс та теми",
             "links": [
-                {
-                    "label": "Посилання на курс 1",
-                    "url": "https://dl.nure.ua/course/view.php?id=29812",
-                    "icon": "Globe"
-                },
-                {
-                    "label": "Посилання на курс 2",
-                    "url": "https://dl.nure.ua/course/view.php?id=29813",
-                    "icon": "Globe"
-                },
-                {
-                    "label": "Посилання на курс 3",
-                    "url": "https://dl.nure.ua/course/view.php?id=29701",
-                    "icon": "Globe"
-                }
-            ]
-        },
-        {
-            "type": "link_group",
-            "title": "Курсова робота",
-            "links": [
-                {
-                    "label": "Інформація про курсову",
-                    "url": "https://dl.nure.ua/course/view.php?id=29813",
-                    "icon": "Book"
-                },
-                {
-                    "label": "Вибір теми (Moodle)",
-                    "url": "https://dl.nure.ua/mod/choice/view.php?id=757456",
-                    "icon": "MousePointer"
-                },
                 {
                     "label": "Таблиця вибору тем",
                     "url": "https://docs.google.com/spreadsheets/d/1y8RyWQwJpqgDX3D_cA8qUEYp_ZF7FMq7viaA50y7PQ0/edit?pli=1&gid=912561958#gid=912561958",
                     "icon": "Grid"
-                }
-            ]
-        },
-        {
-            "type": "link_group",
-            "title": "Навчання",
-            "links": [
+                },
                 {
                     "label": "КР та Лабораторні",
                     "url": "https://dl.nure.ua/course/section.php?id=218167",
                     "icon": "List"
-                },
-                {
-                    "label": "Тести",
-                    "url": "https://dl.nure.ua/course/view.php?id=29812",
-                    "icon": "CheckSquare"
                 }
             ]
         }
