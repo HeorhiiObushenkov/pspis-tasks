@@ -1,28 +1,137 @@
 {
     "id": "physics",
     "title": "Фізика",
+    "teacher": "Коваленко Олена Миколаївна",
     "layout": [
         {
             "type": "hero",
             "title": "Фізика",
-            "subtitle": "Поки невідомо"
+            "subtitle": "Магнетизм, електромагнітні коливання, хвилі та оптика"
         },
         {
             "type": "link_group",
-            "title": "Посилання на курс",
+            "title": "Основні ресурси курсу",
             "links": [
                 {
-                    "label": "Посилання на курс (з першого семестру ще)",
-                    "url": "https://dl.nure.ua/course/view.php?id=29264",
+                    "label": "Курс у Moodle (Новий)",
+                    "url": "https://dl.nure.ua/course/view.php?id=31435",
                     "icon": "Globe"
+                },
+                {
+                    "label": "Силабус дисципліни (ПЗПІ)",
+                    "url": "https://physic.nure.ua/wp-content/uploads/2025/12/silabus-fizika_pzpi_ua.pdf",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Список літератури",
+                    "url": "https://dl.nure.ua/mod/page/view.php?id=811749",
+                    "icon": "Book"
+                },
+                {
+                    "label": "Питання до іспиту",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=811752",
+                    "icon": "HelpCircle"
                 }
             ]
         },
         {
             "type": "info_card",
-            "title": "Статус",
-            "content": "Поки невідомо",
-            "variant": "neutral"
+            "title": "Консультації та зв'язок",
+            "content": "Викладач: Коваленко О.М. (olena.kovalenko@nure.ua). Консультації проводяться кожну другу та четверту суботу місяця о 09:30 за розкладом. Питання також можна ставити на форумі курсу.",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Відеозустрічі та зв'язок",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Заняття online (Google Meet)",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=800839",
+                    "icon": "Video"
+                },
+                {
+                    "label": "Консультаційний пункт",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=811750",
+                    "icon": "MessageCircle"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Контрольні роботи №4 та №5",
+            "content": "Для допуску до іспиту необхідно розв'язати мінімум 12 задач з обох контрольних робіт. Варіант відповідає номеру студента у списку групи. Роботи приймаються виключно у форматі PDF.",
+            "variant": "warning"
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали для контрольної",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Номери задач (Варіанти)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=811755",
+                    "icon": "List"
+                },
+                {
+                    "label": "Умови задач (МВ ч. 2)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=811756",
+                    "icon": "BookOpen"
+                },
+                {
+                    "label": "Титульний лист",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=818595",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Здати роботу",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=811754",
+                    "icon": "Upload"
+                }
+            ]
+        },
+        {
+            "type": "task_list",
+            "title": "Лекційні матеріали",
+            "tasks": [
+                { "id": "phys_l1", "text": "Лекція 1: Магнітне поле у вакуумі" },
+                { "id": "phys_l2", "text": "Лекція 2: Магнітне поле у речовині" },
+                { "id": "phys_l3", "text": "Лекція 3: Електромагнітна індукція" },
+                { "id": "phys_l4", "text": "Лекція 4: Електромагнітне поле" },
+                { "id": "phys_l5", "text": "Лекція 5: ЕМ коливання та змінний струм" },
+                { "id": "phys_l6", "text": "Лекція 6: Електромагнітні хвилі" },
+                { "id": "phys_l7", "text": "Лекція 7: Хвильова оптика (Ч. 1 та 2)" },
+                { "id": "phys_l8", "text": "Лекція 8: Квантова оптика" },
+                { "id": "phys_l9", "text": "Лекція 9: Будова атома" },
+                { "id": "phys_l10", "text": "Лекція 10: Елементи квантової статистики" }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Семестровий контроль",
+            "content": "Підсумкова оцінка враховує лекційну активність, практичні та лабораторні заняття. Лабораторні роботи виконуються безпосередньо під час сесії. Перед іспитом передбачено проходження семестрового тесту.",
+            "variant": "success"
+        },
+        {
+            "type": "link_group",
+            "title": "Іспит та тестування",
+            "links": [
+                {
+                    "label": "Семестровий тест",
+                    "url": "https://dl.nure.ua/mod/quiz/view.php?id=800856",
+                    "icon": "CheckSquare"
+                },
+                {
+                    "label": "Екзаменаційне завдання",
+                    "url": "https://dl.nure.ua/mod/lti/view.php?id=800853",
+                    "icon": "ExternalLink"
+                },
+                {
+                    "label": "Черга на захист робіт",
+                    "url": "https://dl.nure.ua/mod/page/view.php?id=800855",
+                    "icon": "Clock"
+                }
+            ]
         }
     ]
 }
