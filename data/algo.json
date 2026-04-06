@@ -5,33 +5,104 @@
         {
             "type": "hero",
             "title": "Алгоритми та структури даних",
-            "subtitle": "Завдання на семестр та іспит"
+            "subtitle": "Основи алгоритмізації, асимптотичний аналіз та проектування структур даних"
         },
         {
             "type": "link_group",
-            "title": "Посилання на курс",
+            "title": "Ресурси курсу",
             "links": [
                 {
-                    "label": "Посилання на курс",
+                    "label": "Курс у Moodle",
                     "url": "https://dl.nure.ua/course/view.php?id=29790",
                     "icon": "Globe"
+                },
+                {
+                    "label": "Заняття online (Meet)",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=756850",
+                    "icon": "Video"
+                },
+                {
+                    "label": "Журнал відвідування",
+                    "url": "https://dl.nure.ua/mod/attendance/view.php?id=756851",
+                    "icon": "Bookmark"
+                }
+            ]
+        },
+        {
+            "type": "info_card",
+            "title": "Контрольна робота",
+            "content": "Складається з двох завдань: 1. Написання алгоритму згідно з варіантом (наприклад, пошук максимуму в матриці) та розрахунок його асимптотичної оцінки. 2. Розв'язання рекурентного співвідношення. Термін приймання робіт: з 30 квітня по 30 червня 2026 року.",
+            "variant": "warning"
+        },
+        {
+            "type": "text_block",
+            "title": "Вимоги до звіту КР",
+            "content": "• Формат файлу: .doc (назва: НомерГрупи_Прізвище.doc).\n• Склад звіту: умова задачі, текст програми, скриншоти результатів тестування, інструкція користувача.\n• Додатково: для графічних додатків додається вигляд форм та архів із рішенням. Захист проводиться під час сесії."
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали та здача КР",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Варіанти та умови",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=756862",
+                    "icon": "List"
+                },
+                {
+                    "label": "Надіслати звіт",
+                    "url": "https://dl.nure.ua/mod/assign/view.php?id=756862",
+                    "icon": "Upload"
                 }
             ]
         },
         {
             "type": "task_list",
-            "title": "План роботи",
+            "title": "Лекційний курс",
             "tasks": [
-                { "id": "algo_cw", "text": "Контрольна робота (2 варіант)" },
-                { "id": "algo_lectures", "text": "Прочитати 4 лекції" },
-                { "id": "algo_exam_prep", "text": "Екзаменаційне завдання (вирішити 1-4 задачі за день до іспиту)" }
+                { "id": "algo_l1", "text": "Лекція 1: Вступ до предмету" },
+                { "id": "algo_l2", "text": "Лекція 2: Асимптотичний аналіз" },
+                { "id": "algo_l3", "text": "Лекція 3: Рекурсивні алгоритми" },
+                { "id": "algo_l4", "text": "Лекція 4: Структури даних" }
+            ]
+        },
+        {
+            "type": "link_group",
+            "title": "Матеріали лекцій",
+            "links": [
+                { "label": "Посилання на ЛК 1", "url": "https://dl.nure.ua/mod/url/view.php?id=803429", "icon": "FileText" },
+                { "label": "Посилання на ЛК 2", "url": "https://dl.nure.ua/mod/url/view.php?id=803426", "icon": "FileText" },
+                { "label": "Посилання на ЛК 3", "url": "https://dl.nure.ua/mod/url/view.php?id=803427", "icon": "FileText" },
+                { "label": "Посилання на ЛК 4", "url": "https://dl.nure.ua/mod/url/view.php?id=803428", "icon": "FileText" }
             ]
         },
         {
             "type": "info_card",
-            "title": "Важливо",
-            "content": "Екзаменаційне завдання з'явиться безпосередньо перед іспитом. Потрібно буде вирішити від 1 до 4 задач.",
-            "variant": "warning"
+            "title": "Підсумковий контроль",
+            "content": "Іспит включає виконання екзаменаційного завдання та захист робіт у синхронному режимі. Запис на захист здійснюється через електронну чергу.",
+            "variant": "info"
+        },
+        {
+            "type": "link_group",
+            "title": "Екзаменаційний блок",
+            "style": "buttons",
+            "links": [
+                {
+                    "label": "Вхід на іспит",
+                    "url": "https://dl.nure.ua/mod/url/view.php?id=756865",
+                    "icon": "Video"
+                },
+                {
+                    "label": "Екзаменаційне завдання",
+                    "url": "https://dl.nure.ua/mod/lti/view.php?id=756864",
+                    "icon": "CheckCircle"
+                },
+                {
+                    "label": "Черга на захист",
+                    "url": "https://dl.nure.ua/mod/page/view.php?id=756866",
+                    "icon": "Users"
+                }
+            ]
         }
     ]
 }
