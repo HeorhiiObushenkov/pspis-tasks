@@ -49,6 +49,18 @@
                     "url": "https://dl.nure.ua/mod/resource/view.php?id=837352",
                     "description": "Детальний опис завдань та номери сторінок підручника",
                     "icon": "BookOpen"
+                },
+                {
+                    "label": "Збірник задач (Частина 2)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=837320",
+                    "description": "Для виконання ІДЗ №1",
+                    "icon": "Book"
+                },
+                {
+                    "label": "Збірник задач (Частина 3)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=837318",
+                    "description": "Для виконання ІДЗ №2",
+                    "icon": "Book"
                 }
             ]
         },
