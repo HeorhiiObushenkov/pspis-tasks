@@ -1,37 +1,89 @@
 {
     "id": "hypertext",
     "title": "Гіпертекст",
+    "teacher": "Груздо І.В.",
     "layout": [
         {
             "type": "hero",
             "title": "Гіпертекст та гіпермедіа",
-            "subtitle": "Детальні вимоги до доповіді додано"
+            "subtitle": "Проєктування веб-інтерфейсів, юзабіліті та сучасні стандарти верстки"
+        },
+        {
+            "type": "link_group",
+            "title": "Навчальні матеріали",
+            "links": [
+                {
+                    "label": "Курс у Moodle",
+                    "url": "https://dl.nure.ua/course/view.php?id=30510",
+                    "icon": "Globe"
+                },
+                {
+                    "label": "Перелік тем доповідей (DOCX)",
+                    "url": "https://dl.nure.ua/pluginfile.php/1195309/mod_assign/introattachment/0/%D0%94%D0%BE%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D1%96%20%D0%BF%D0%BE%20%D0%93%D1%82%D0%93%D0%BC.docx?forcedownload=1",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Силабус дисципліни",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=811747",
+                    "description": "Програма на 4 кредити ЄКТС (120 годин)",
+                    "icon": "FileText"
+                },
+                {
+                    "label": "Методичні вказівки (ПЗ)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=750370",
+                    "icon": "BookOpen"
+                },
+                {
+                    "label": "Методичні вказівки (ЛР)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=764457",
+                    "icon": "Terminal"
+                }
+            ]
         },
         {
             "type": "info_card",
-            "title": "Доповідь (Обов'язково)",
-            "content": "Тема: Пошукові Web-сайти та їх специфіка\nБали: 15б",
+            "title": "Система оцінювання (Залік)",
+            "content": "Підсумкова оцінка формується на основі накопичених балів:\n• Лабораторні роботи (4 шт): 40б\n• Практичні роботи (2 шт): 20б\n• Доповідь (Обов'язково): 15б\n• Підсумковий тест: 10б\nМінімальний бал для отримання заліку — 60.",
+            "variant": "success"
+        },
+        {
+            "type": "info_card",
+            "title": "Обов'язкова доповідь",
+            "content": "Тема обирається студентом самостійно із затвердженого переліку (посилання вище). Робота оцінюється у 15 балів та складається з текстового документа і презентації на 10 слайдів.",
             "variant": "warning"
         },
         {
             "type": "text_block",
-            "title": "Вимоги до доповіді",
-            "content": "- Формат: документ .doc\n- Обсяг: 10-20 сторінок\n- Оформлення: Times New Roman, 14 пт, інтервал 1,15\n- Джерела: Мінімум 5 наукових публікацій або статей. З них 3 обов'язково з сайту Google Scholar.\n- Презентація: 10 слайдів з основними тезами."
+            "title": "Вимоги до оформлення доповіді",
+            "content": "- Формат: документ .doc\n- Обсяг: 10–20 сторінок\n- Оформлення: шрифт Times New Roman (14 пт), інтервал 1,15\n- Джерела: мінімум 5 наукових публікацій або статей, 3 з яких мають бути знайдені через Google Scholar."
         },
         {
-            "type": "info_card",
-            "title": "Система оцінювання",
-            "content": "- Лабораторні (4 шт): 40б\n- Практичні (2 шт): 20б\n- Доповідь: 15б (Обов'язково)\n- Залік: 10б (Обов'язково)",
-            "variant": "success"
+            "type": "task_list",
+            "title": "Практичні та лабораторні роботи",
+            "tasks": [
+                { "id": "gt_pz1", "text": "ПЗ №1: Визначення мети сайту, аналіз ЦА та розробка структури (Wireframes)" },
+                { "id": "gt_pz2", "text": "ПЗ №2: Юзабіліті-експертиза та аналіз кросбраузерності" },
+                { "id": "gt_lr1", "text": "ЛР №1: Основи HTML5 та CSS3, верстка текстових блоків" },
+                { "id": "gt_lr2", "text": "ЛР №2: Робота з CSS Grid Layout та медіа-запитами" },
+                { "id": "gt_lr3", "text": "ЛР №3: Динамічний HTML, форми та основи JavaScript" },
+                { "id": "gt_lr4", "text": "ЛР №4: Використання фреймворку Bootstrap 4" }
+            ]
         },
         {
             "type": "link_group",
-            "title": "Здача робіт",
-            "style": "buttons",
+            "title": "Допоміжні ресурси",
             "links": [
-                { "label": "Здати ЛБ", "url": "https://dl.nure.ua/mod/assign/view.php?id=764457", "icon": "Upload" },
-                { "label": "Здати ПЗ", "url": "https://dl.nure.ua/mod/assign/view.php?id=764458", "icon": "Upload" },
-                { "label": "Здати Доповідь", "url": "https://dl.nure.ua/mod/assign/view.php?id=764459", "icon": "Upload" }
+                {
+                    "label": "Синтез персонажів (Посібник)",
+                    "url": "https://dl.nure.ua/mod/resource/view.php?id=811752",
+                    "description": "Методика створення портретів користувачів",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Сервіс для Wireframes",
+                    "url": "https://wireframe.cc/",
+                    "icon": "ExternalLink"
+                }
             ]
         }
     ]
