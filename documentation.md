@@ -40,14 +40,22 @@
 ```
 
 ### Дисципліна (`subject.json`)
-Файл дисципліни складається з масиву `layout`, який містить віджети:
+Файл дисципліни може мати або простий масив `layout` для лінійної структури, або масив `tabs` для вкладок (які також підтримують свайп на мобільних пристроях):
 ```json
 {
-    "layout": [
+    "id": "subject-id",
+    "title": "Назва дисципліни",
+    "tabs": [
         {
-            "type": "hero",
-            "title": "Заголовок",
-            "subtitle": "Підзаголовок"
+            "id": "general",
+            "label": "Загальне",
+            "layout": [
+                {
+                    "type": "hero",
+                    "title": "Заголовок",
+                    "subtitle": "Підзаголовок"
+                }
+            ]
         }
     ]
 }
@@ -56,11 +64,13 @@
 ## 5. Доступні віджети
 | Тип віджета | Опис | Параметри |
 | :--- | :--- | :--- |
-| `hero` | Головний банер сторінки | `title`, `subtitle` |
+| `hero` | Головний банер сторінки | `title`, `subtitle`, `image` (опційно), `courseUrl` (опційно) |
 | `info_card` | Інформаційний блок з виділенням | `title`, `content`, `variant` (neutral, info, success, warning, error) |
 | `text_block` | Текстовий блок з підтримкою списків | `title`, `content` |
 | `link_group` | Група посилань (список або кнопки) | `title`, `style` (list, buttons), `links` (label, url, description, icon) |
 | `task_list` | Інтерактивний список завдань | `title`, `tasks` (id, text) |
+| `teacher_card` | Картка викладача | `name`, `role`, `email`, `avatar` (опційно), `socials` (масив об'єктів `url`, `icon`, `platform`) |
+| `collapsible_list`| Акордеон-список (згортається) | `title`, `items` (title, content) |
 
 ## 6. Як додати нову дисципліну
 1. Створіть новий JSON файл у папці `data/` (наприклад, `physics.json`).

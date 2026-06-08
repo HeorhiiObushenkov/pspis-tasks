@@ -9,24 +9,127 @@
     scrollbar-width: none;
 }
 
-/* Smooth fade in */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+/* Premium Bouncy Fade in (Google MD3 Playful style) */
+@keyframes blurFadeIn {
+    from { 
+        opacity: 0; 
+        filter: blur(8px); 
+        transform: scale(0.95); 
+    }
+    to { 
+        opacity: 1; 
+        filter: blur(0); 
+        transform: scale(1); 
+    }
 }
 
 .fade-in {
-    animation: fadeIn 0.3s ease-out forwards;
+    animation: blurFadeIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
-/* Card hover effects */
+.tab-content-animated {
+    animation: blurFadeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Card hover effects - Playful & bouncy */
 .hover-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .hover-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0,0,0,0.03);
+}
+
+.hover-card:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Playful click effect for generic interactive elements */
+.btn, .hero, .card, .subject-btn, .stat, .tab-active, .tab, .card.cursor-pointer, .checkbox, .grade-input, label.cursor-pointer, a.group, .collapse-title {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s, background-color 0.2s, color 0.2s !important;
+}
+
+.btn:active, .hero:active, .stat:active, .tab-active:active, .card:active, .subject-btn:active, .tab:active, .card.cursor-pointer:active, label.cursor-pointer:active, a.group:active, .collapse-title:active {
+    transform: scale(0.96) !important;
 }
 
 /* Custom Checkbox Style integration if needed, usually DaisyUI handles this */
+
+/* Collapsed Sidebar Styles */
+#sidebar-aside {
+    transition: width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), padding 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+    overflow-x: hidden;
+}
+
+#sidebar-aside.sidebar-collapsed .short-name {
+    display: block;
+    animation: blurFadeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+#sidebar-aside:not(.sidebar-collapsed) .subject-name,
+#sidebar-aside:not(.sidebar-collapsed) #sidebar-logo-link,
+#sidebar-aside:not(.sidebar-collapsed) .settings-text,
+#sidebar-aside:not(.sidebar-collapsed) .theme-text {
+    animation: blurFadeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+#sidebar-aside.sidebar-collapsed {
+    width: 5.5rem !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#sidebar-aside.sidebar-collapsed #sidebar-logo-link {
+    display: none;
+}
+#sidebar-aside.sidebar-collapsed #sidebar-header {
+    justify-content: center;
+}
+#sidebar-aside.sidebar-collapsed .subject-name {
+    display: none;
+}
+#sidebar-aside.sidebar-collapsed .subject-btn {
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.5rem 0.25rem;
+    justify-content: center;
+}
+#sidebar-aside.sidebar-collapsed .short-name {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.short-name {
+    display: none;
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+}
+#sidebar-aside.sidebar-collapsed .settings-text {
+    display: none;
+}
+#sidebar-aside.sidebar-collapsed .theme-text {
+    display: none;
+}
+#sidebar-aside.sidebar-collapsed .btn, 
+#sidebar-aside.sidebar-collapsed label.btn {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Settings Modal Animation */
+dialog[open] .modal-box {
+    animation: blurFadeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Mobile Sidebar Animation */
+#my-drawer-2:checked ~ .drawer-side #sidebar-aside > * {
+    opacity: 0;
+    animation: blurFadeIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+#my-drawer-2:checked ~ .drawer-side #sidebar-aside > *:nth-child(1) { animation-delay: 0.05s; }
+#my-drawer-2:checked ~ .drawer-side #sidebar-aside > *:nth-child(2) { animation-delay: 0.1s; }
+#my-drawer-2:checked ~ .drawer-side #sidebar-aside > *:nth-child(3) { animation-delay: 0.15s; }
+#my-drawer-2:checked ~ .drawer-side #sidebar-aside > *:nth-child(4) { animation-delay: 0.2s; }
