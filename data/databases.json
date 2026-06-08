@@ -1,0 +1,44 @@
+{
+    "id": "databases",
+    "title": "Бази даних",
+    "tabs": [
+        {
+            "id": "general",
+            "label": "Загальне",
+            "layout": [
+                {
+                    "type": "hero",
+                    "title": "Бази даних (НЕ ЗРОБЛЕНА)",
+                    "subtitle": "Основи проектування та роботи з БД"
+                }
+            ]
+        },
+        {
+            "id": "tasks",
+            "label": "Завдання",
+            "layout": [
+                {
+                    "type": "task_list",
+                    "title": "Лабораторні роботи",
+                    "tasks": [
+                        { "id": "db_l1", "text": "ЛР 1: Проектування ER-моделі" },
+                        { "id": "db_l2", "text": "ЛР 2: SQL запити (SELECT, JOIN)" },
+                        { "id": "db_l3", "text": "ЛР 3: Нормалізація БД" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "teachers",
+            "label": "Викладачі",
+            "layout": [
+                {
+                    "type": "teacher_card",
+                    "name": "Сидоров Сидір Сидорович",
+                    "role": "Лектор",
+                    "email": "sydorov@nure.ua"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "philosophy",
+    "title": "Філософія",
+    "tabs": [
+        {
+            "id": "general",
+            "label": "Загальне",
+            "layout": [
+                {
+                    "type": "hero",
+                    "title": "Філософія (НЕ ЗРОБЛЕНА)",
+                    "image": "https://chdtu.edu.ua/media/k2/items/cache/fad1600bf474567af7ce16118055d7d2_XL.jpg",
+                    "courseUrl": "https://google.com"
+                },
+                {
+                    "type": "info_card",
+                    "title": "Про дисципліну",
+                    "content": "Вивчення основних філософських концепцій та їх впливу на розвиток суспільства.",
+                    "variant": "info",
+                    "size": "half"
+                },
+                {
+                    "type": "info_card",
+                    "title": "Оцінювання",
+                    "content": "Максимум за семестр: 100 балів.\\nІспит: 40 балів.\\nПоточний контроль: 60 балів.",
+                    "variant": "warning",
+                    "size": "half"
+                },
+                {
+                    "type": "collapsible_list",
+                    "title": "Додаткові матеріали (Згорнутий список)",
+                    "items": [
+                        {
+                            "title": "Рекомендована література",
+                            "content": "1. Платон 'Держава'\\n2. Арістотель 'Метафізика'\\n3. Кант 'Критика чистого розуму'"
+                        },
+                        {
+                            "title": "Корисні посилання",
+                            "content": "Бібліотека Вернадського: www.nbuv.gov.ua\\nСтенфордська енциклопедія філософії: plato.stanford.edu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tasks",
+            "label": "Завдання",
+            "layout": [
+                {
+                    "type": "task_list",
+                    "title": "Завдання на семестр",
+                    "tasks": [
+                        { "id": "phil_t1", "text": "Семінар 1: Антична філософія" },
+                        { "id": "phil_t2", "text": "Семінар 2: Філософія Відродження" },
+                        { "id": "phil_t3", "text": "Написання есе" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "teachers",
+            "label": "Викладачі",
+            "layout": [
+                {
+                    "type": "teacher_card",
+                    "name": "Іванов Іван Іванович",
+                    "role": "Лектор",
+                    "email": "ivanov@nure.ua"
+                }
+            ]
+        }
+    ]
+}

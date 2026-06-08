@@ -1,0 +1,47 @@
+{
+    "id": "hci",
+    "title": "Людино-машинна взаємодія",
+    "tabs": [
+        {
+            "id": "general",
+            "label": "Загальне",
+            "layout": [
+                {
+                    "type": "hero",
+                    "title": "Людино-машинна взаємодія (НЕ ЗРОБЛЕНА)",
+                    "subtitle": "Основи UI/UX та взаємодії користувача з системами"
+                }
+            ]
+        },
+        {
+            "id": "tasks",
+            "label": "Завдання",
+            "layout": [
+                {
+                    "type": "task_list",
+                    "title": "Практичні роботи",
+                    "tasks": [
+                        { "id": "hci_1", "text": "ПЗ 1: Аналіз цільової аудиторії" },
+                        { "id": "hci_2", "text": "ПЗ 2: Проектування інтерфейсу (Figma)" },
+                        { "id": "hci_3", "text": "ПЗ 3: Юзабіліті-тестування" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "teachers",
+            "label": "Викладачі",
+            "layout": [
+                {
+                    "type": "teacher_card",
+                    "name": "Коваленко Олена",
+                    "role": "Викладач",
+                    "email": "kovalenko@nure.ua",
+                    "socials": [
+                        { "url": "https://t.me/kovalenko", "icon": "send", "platform": "Telegram" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

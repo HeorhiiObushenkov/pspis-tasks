@@ -1,0 +1,53 @@
+{
+    "subjects": [
+        {
+            "id": "philosophy",
+            "name": "Філософія",
+            "shortName": "ФІЛ",
+            "path": "./data/philosophy.json",
+            "icon": "Book"
+        },
+        {
+            "id": "computer_architecture",
+            "name": "Архітектура комп'ютера",
+            "shortName": "АК",
+            "path": "./data/computer_architecture.json",
+            "icon": "Cpu"
+        },
+        {
+            "id": "databases",
+            "name": "Бази даних",
+            "shortName": "БД",
+            "path": "./data/databases.json",
+            "icon": "Database"
+        },
+        {
+            "id": "hci",
+            "name": "Людино-машинна взаємодія",
+            "shortName": "ЛМВ",
+            "path": "./data/hci.json",
+            "icon": "Users"
+        },
+        {
+            "id": "statistics",
+            "name": "Теорія ймовірностей",
+            "shortName": "ТЙ",
+            "path": "./data/statistics.json",
+            "icon": "BarChart"
+        },
+        {
+            "id": "it_business",
+            "name": "Введення до ІТ-бізнесу",
+            "shortName": "ВДІБ",
+            "path": "./data/it_business.json",
+            "icon": "Briefcase"
+        },
+        {
+            "id": "python",
+            "name": "Програмування мовою Python",
+            "shortName": "PY",
+            "path": "./data/python.json",
+            "icon": "Code"
+        }
+    ]
+}
