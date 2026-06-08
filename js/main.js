@@ -7,6 +7,7 @@ const App = {
         await this.loadManifest();
         setupTheme();
         this.setupSettings();
+        this.setupSidebarToggle();
 
         window.addEventListener('hashchange', () => this.handleHashChange());
 
@@ -98,6 +99,23 @@ const App = {
         }
     },
 
+    setupSidebarToggle() {
+        const toggleBtn = document.getElementById('toggle-sidebar-btn');
+        const sidebar = document.getElementById('sidebar-aside');
+        if (toggleBtn && sidebar) {
+            // Load state from local storage
+            const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
+            if (isCollapsed) {
+                sidebar.classList.add('sidebar-collapsed');
+            }
+
+            toggleBtn.addEventListener('click', () => {
+                sidebar.classList.toggle('sidebar-collapsed');
+                localStorage.setItem('sidebarCollapsed', sidebar.classList.contains('sidebar-collapsed'));
+            });
+        }
+    },
+
     async loadSubject(id) {
         state.currentSubjectId = id;
 
@@ -115,6 +133,11 @@ const App = {
             return;
         }
 
+        if (id === 'grades') {
+            import('./render.js').then(m => m.renderGrades(contentArea));
+            return;
+        }
+
         const subject = state.subjects.find(s => s.id === id);
         if (!subject) return;
 
@@ -124,7 +147,7 @@ const App = {
             return;
         }
 
-        contentArea.innerHTML = '<div class="skeleton w-full h-32 rounded-2xl"></div>'; // Loading state
+        contentArea.innerHTML = '<div class="space-y-6"><div class="skeleton w-full h-32 rounded-2xl"></div><div class="skeleton w-full h-64 rounded-2xl"></div></div>'; // Loading state
 
         try {
             const res = await fetch(subject.path);
